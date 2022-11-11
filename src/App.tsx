@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
 function App() {
-    let a = 1
+    // let a = 1
+    let [a, setA] = useState(1)
+
 
     const onClickHandler = () => {
-        ++a
+        setA(++a)
+
         console.log(a)
     }
     return (
