@@ -6,6 +6,7 @@ function App() {
 
     const onClickHandler = () => {
         ++a
+        console.log(a)
     }
     return (
         <div className="App">
